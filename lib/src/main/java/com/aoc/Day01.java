@@ -19,6 +19,7 @@ public class Day01 {
         setupLog();
     }
 
+    /* @TODO separete log in a single file*/
     public void setupLog() throws Exception{
         try {
             Handler fileHandler = new FileHandler("./output.log");
