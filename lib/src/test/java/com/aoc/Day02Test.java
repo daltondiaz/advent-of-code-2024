@@ -10,19 +10,25 @@ class Day02Test {
 
     @Test void shouldReturnDemoValue2() throws Exception {
         Day02 classUnderTest = new Day02();
-        var demoFile = "./day02/demo.input";
+        var demoFile = "./aoc/day02/demo.input";
         assertEquals(classUnderTest.runPart1(demoFile), 2);
     }
 
     @Test void shouldReturnResultOfPartOne() throws Exception {
         Day02 classUnderTest = new Day02();
-        var demoFile = "./day02/puzzle.input";
+        var demoFile = "./aoc/day02/puzzle.input";
         assertEquals(classUnderTest.runPart1(demoFile), 359);
     }
 
     @Test void shouldReturnDemoValue4() throws Exception {
         Day02 classUnderTest = new Day02();
-        var demoFile = "./day02/demo.input";
+        var demoFile = "./aoc/day02/demo.input";
+        assertEquals(classUnderTest.runPart2(demoFile), 5);
+    }
+
+    @Test void shouldReturnResultOfPartTwo() throws Exception {
+        Day02 classUnderTest = new Day02();
+        var demoFile = "./aoc/day02/puzzle.input";
         assertEquals(classUnderTest.runPart2(demoFile), 4);
     }
 }

@@ -9,25 +9,25 @@ import static org.junit.jupiter.api.Assertions.*;
 class Day01Test {
     @Test void shouldReturnDemoValue11() throws Exception {
         Day01 classUnderTest = new Day01();
-        var demoFile = "./day01/demo.input";
+        var demoFile = "./aoc/day01/demo.input";
         assertEquals(classUnderTest.runPart1(demoFile), 11);
     }
 
     @Test void shoudlGetTheDistance() throws Exception {
         Day01 classUnderTest = new Day01();
-        var demoFile = "./day01/puzze.input";
+        var demoFile = "./aoc/day01/puzze.input";
         assertEquals(classUnderTest.runPart1(demoFile), 2756096);
     }
 
     @Test void shouldReturnDemoValue31OfPartTwo() throws Exception {
         Day01 classUnderTest = new Day01();
-        var demoFile = "./day01/demo.input";
+        var demoFile = "./aoc/day01/demo.input";
         assertEquals(classUnderTest.runPart2(demoFile), 31);
     }
 
     @Test void shouldGetSimilarityValue() throws Exception {
         Day01 classUnderTest = new Day01();
-        var demoFile = "./day01/puzze.input";
+        var demoFile = "./aoc/day01/puzze.input";
         assertEquals(classUnderTest.runPart2(demoFile), 23117829);
     }
 }
